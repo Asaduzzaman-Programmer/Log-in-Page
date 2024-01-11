@@ -1,0 +1,165 @@
+*{
+  background: linear-gradient(45deg, red blue);
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: #ddd;
+}
+
+/* start header*/
+header {
+  background-color: black;
+  display: flex;
+  width: 100%;
+  height: 100%;
+  color: white;
+
+}
+
+.logo {
+  color: white;
+  font-weight: bold;
+  font-family: Arial, Helvetica, sans-serif;
+  margin-left: 10px;
+  padding-top: 10px;
+  font-size: 25px;
+  margin-top: 20px;
+}
+
+.royal {
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.li1{
+  margin-right: 20px;
+}
+
+.royal ul li {
+  list-style: none;
+  background-color: black;
+  border: 1px solid gray;
+  width: 150px;
+  height: 50px;
+  float: left;
+  line-height: 35px;
+  text-align: center;
+  color: white;
+  font-size: 10px;
+  text-transform: uppercase;
+
+}
+
+.royal ul li a {
+  text-decoration: none;
+  color: white;
+  text-align: center;
+ 
+}
+
+.royal ul li:hover {
+  background-color: rgb(49, 34, 255);
+  transition-property: all;
+}
+
+.royal ul li ul {
+  display: none;
+  margin-left: -40px;
+}
+
+.royal ul li:hover>ul {
+  display: block;
+}
+
+/*end header*/
+
+
+
+/*start footer*/
+footer {
+  background-color: black;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 200px;
+  color: white;
+}
+
+.div1 {
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+}
+
+.div2 {
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+  width: 600px;
+  margin: 0 auto;
+  position: relative;
+  top: -20px;
+}
+
+.div3 {
+  text-align: center;
+  font-size: xx-large;
+  position: relative;
+  top: -30px
+}
+
+.div4 {
+  font-family: sans-serif;
+  text-align: center;
+  position: relative;
+  top: -30px;
+  font-size: large;
+  width: 100%;
+}
+
+.ico{
+  color: rgb(23, 11, 255);
+}
+
+.ico:hover{
+  color: rgb(255, 255, 255);
+}
+
+/*end footer*/
+
+
+
+
+/*start form*/
+
+h1{
+  color: rgb(50, 85, 255);
+}
+
+.form {
+  background-color: rgb(27, 20, 220);
+  color: white;
+  font-size: 30px;
+  width: fit-content;
+  height: fit-content;
+  text-align: center;
+  margin: 0 auto;
+  padding: 10px 80px;
+  margin-top: 10px;
+  box-shadow: 4px 3px 5px rgb(0, 0, 0, 0.5), -4px -3px 5px rgb(0, 0, 0, 0.5);
+  border-radius: 7px;
+}
+
+.form input {
+  border-radius: 5px;
+}
+
+.form .rst {
+  font-weight: bold;
+}
+
+/*end form*/
